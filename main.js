@@ -26,18 +26,3 @@ function myFunction3() {
     navbar_background.style.visibility = "hidden";
   }
 }
-
-function Fe_notext(id) {
-  id.style.visibility = "hidden" 
-}
-function Fe_text(id) {
-  id.style.visibility = "visible" 
-}
-
-function notext(id) {
-  id.style.visibility = "hidden" 
-}
-function text(id) {
-  id.style.visibility = "visible" 
-}
-
