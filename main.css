@@ -290,6 +290,7 @@ nav #menu a:hover {
 
 @media(max-width: 768px) {
 
+
   #toggle {
     visibility: visible;
     opacity: 1;
@@ -367,20 +368,17 @@ nav #menu a:hover {
 .FE_icon_first_media{
   visibility: hidden!important;
 }
-
-@media (min-width: 375px) {
-  html, body {
-    overflow-x: hidden!important;
-    max-width:100%!important;   
-  } 
-  
+html, body {
+  overflow-x: hidden!important;
+  max-width:100%!important;   
 }
-@media (max-width: 667px) {
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
   html, body {
     overflow-x: hidden!important;
     max-width:100%!important;   
-  } 
-
+}
 }
 @media(min-width: 768px) {
 
