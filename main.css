@@ -289,8 +289,6 @@ nav #menu a:hover {
 }
 
 @media(max-width: 768px) {
-
-
   #toggle {
     visibility: visible;
     opacity: 1;
@@ -339,9 +337,9 @@ nav #menu a:hover {
   .box1{
     width:91%!important;
   }
+
   .box1_2{
     margin: 0% 30%;
-    
     width:38%!important;
   }
   
@@ -350,12 +348,13 @@ nav #menu a:hover {
     left: 50%;
     transform: translate(-50%, 0%);
   }
+
   .FE_icon_first_media{
     visibility: hidden!important;
   }
+
   footer p{
     margin: 0!important;
-    
   }
   
   footer i{
@@ -367,21 +366,21 @@ nav #menu a:hover {
 @media(min-width: 1090px) { 
 .FE_icon_first_media{
   visibility: hidden!important;
-}
+  }
 html, body {
   overflow-x: hidden!important;
   max-width:100%!important;   
-}
+  }
+
 }
 
 @media screen and (min-width: 375px) and (max-width: 768px) {
   html, body {
     overflow-x: hidden!important;
     max-width:100%!important;   
-}
+  }
 }
 @media(min-width: 768px) {
-
   #responsive {
     visibility: hidden;
   }
@@ -690,7 +689,7 @@ footer{
   color: white;
   height: 50px;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 18px;
+  font-size: 15px;
   background-color: #212121;
   width: 100%;
   margin-right: 10%;
@@ -698,7 +697,7 @@ footer{
 
 footer p{
   text-align: justify;
-  margin: 0 5%;
+  margin: 10px 5%;
 }
 
 footer i{
