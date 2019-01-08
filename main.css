@@ -2,8 +2,8 @@
   list-style: none;
 }
 
-@-ms-viewport{
-  width: device-width;
+#mainwrapper { 
+  overflow-x: hidden;
 }
 
 body{
@@ -265,6 +265,7 @@ nav #menu a:hover {
   html, body {
     overflow-x: hidden!important;
     max-width:100%!important;
+    
 }
 
   .box1{
@@ -292,6 +293,7 @@ nav #menu a:hover {
   html, body {
     overflow-x: hidden!important;
     max-width:100%!important;
+    
 }
 
   #toggle {
@@ -363,6 +365,7 @@ nav #menu a:hover {
   html, body {
     max-width:100%!important;
     overflow-x: hidden!important;
+    
 }
   
 .FE_icon_first_media{
@@ -376,6 +379,7 @@ nav #menu a:hover {
   html, body {
     max-width:100%!important;
     overflow-x: hidden!important;
+    
 }
   #responsive {
     visibility: hidden;
