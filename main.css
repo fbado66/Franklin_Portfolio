@@ -2,6 +2,9 @@
   list-style: none;
 }
 
+@-ms-viewport{
+  width: device-width;
+}
 
 body{
   width:100%;
