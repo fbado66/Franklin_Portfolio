@@ -26,3 +26,4 @@ function myFunction3() {
     navbar_background.style.visibility = "hidden";
   }
 }
+

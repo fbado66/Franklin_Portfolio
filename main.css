@@ -2,9 +2,9 @@
   list-style: none;
 }
 
+
 body{
-  width: 100%!important;
-  height: 100vh;
+  width:100%;
   display: table;
   margin: 0;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
@@ -15,6 +15,7 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: black
 }
 
 .container {
@@ -53,13 +54,58 @@ p {
   text-align: center;
 }
 
-#content h1{
+
+
+.type-writer{
   font-weight: 200;
   font-size: 50px;
   text-align: center;
   line-height: 1.3;
   color: white;
   text-shadow: 2px 1px white;
+  overflow: hidden;
+  width: 500px;
+  white-space: nowrap;
+}
+
+.type-writer2{
+  font-weight: 200;
+  font-size: 40px;
+  text-align: center;
+  line-height: 1.3;
+  color: white;
+  text-shadow: 2px 1px white;  
+  opacity: 1;
+}
+
+.type-writer{
+  animation:type-writer 3s steps(40) forwards;
+}
+@keyframes type-writer {
+  from { width:0 }
+  to { width:420px; }
+}
+
+.type-writer2{
+  animation-name:type-writer2;
+  animation-duration: 6.2s; 
+  animation-direction: inherit;
+
+}
+@keyframes type-writer2 {
+  0% {
+  opacity: 0;
+  font-size: 25px;
+  }
+  50% {
+  opacity: 0;
+  font-size: 25px;
+  }
+ 
+  100% {
+  opacity: 1;
+  font-size: 40px;
+  }
 }
 
 .FE_icon{
@@ -86,9 +132,9 @@ p {
   display:inline-block;
   width: 65px;
   height: 65px;
-  margin:5px;
+  /* margin:5px;
   border-radius:30%;
-  box-shadow: 0 10px 25px -4px black;
+  box-shadow: 0 10px 25px -4px black; */
   overflow: hidden;
   position: relative;
 }
@@ -148,6 +194,7 @@ nav #logo{
 nav #logo a{
   transition: all 0.3s ease-out;
   font-weight: bold;
+  color: black;
 }
 
 nav #menu {
@@ -210,7 +257,13 @@ nav #menu a:hover {
   position: sticky;
 }
 
-@media(max-width: 975px) {
+@media(max-width: 1090px) {
+
+  html, body {
+    overflow-x: hidden!important;
+    max-width:100%!important;
+}
+
   .box1{
     width: 40%!important;
   }
@@ -232,6 +285,12 @@ nav #menu a:hover {
 }
 
 @media(max-width: 768px) {
+
+  html, body {
+    overflow-x: hidden!important;
+    max-width:100%!important;
+}
+
   #toggle {
     visibility: visible;
     opacity: 1;
@@ -296,20 +355,32 @@ nav #menu a:hover {
   }
 }
 
-@media(min-width: 975px) {
+@media(min-width: 1090px) {
+
+  html, body {
+    max-width:100%!important;
+    overflow-x: hidden!important;
+}
+  
 .FE_icon_first_media{
   visibility: hidden!important;
 }
 
+
 }
 @media(min-width: 768px) {
+
+  html, body {
+    max-width:100%!important;
+    overflow-x: hidden!important;
+}
   #responsive {
     visibility: hidden;
   }
 }
  
 #navbar a {
-  float: left;
+  /* float: left; */
   display: block;
   text-align: center;
   text-decoration: none;
@@ -386,6 +457,11 @@ box-shadow: 2px -2px 20px lightslategray;
 
 .thecard h4{
   text-align: center;
+}
+
+.thecard img{
+  border-radius: 16px;
+
 }
 
 button {
@@ -533,21 +609,26 @@ content: 'Fbado66@gmail.com';
 }
 
 .box1{
-  width: 30%;
+  width: 31%;
   float: left;
-  padding: 5px 15px;
+  padding: 5px 1%;
 }
 
 .box1_2{
-  width: 25%;
+  width: 31%;
   float: left;
-  padding: 5px 15px;
+  padding: 5px 1%;
+}
+.box1_2 img{
+  width:80%;
+ margin: 0 10%;
+
 }
 
 .box1_3{
-  width: 30%;
+  width: 31%;
   float: left;
-  padding: 5px 15px;
+  padding: 5px 1%;
 }
 
 .box1_3 h4{
