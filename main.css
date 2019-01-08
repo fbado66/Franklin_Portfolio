@@ -2,15 +2,12 @@
   list-style: none;
 }
 
-#mainwrapper { 
-  overflow-x: hidden;
-}
-
 body{
   width:100%;
   display: table;
   margin: 0;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; 
+  font-family: 'Aleo', serif;
+
 }
 
 #content{
@@ -48,8 +45,7 @@ body{
 }
 
 #about p{
-  font-weight: 250;
-  text-shadow: .5px 1px black;
+  font-weight: 100;
 }
 
 p {
@@ -60,24 +56,23 @@ p {
 
 
 .type-writer{
-  font-weight: 200;
+  font-weight: 100;
   font-size: 50px;
   text-align: center;
   line-height: 1.3;
   color: white;
-  text-shadow: 2px 1px white;
+  text-shadow: 1px 1px white;
   overflow: hidden;
   width: 500px;
   white-space: nowrap;
 }
 
 .type-writer2{
-  font-weight: 200;
+  font-weight: 100;
   font-size: 40px;
   text-align: center;
   line-height: 1.3;
   color: white;
-  text-shadow: 2px 1px white;  
   opacity: 1;
 }
 
@@ -86,7 +81,7 @@ p {
 }
 @keyframes type-writer {
   from { width:0 }
-  to { width:420px; }
+  to { width:430px; }
 }
 
 .type-writer2{
@@ -264,8 +259,10 @@ nav #menu a:hover {
 
   html, body {
     overflow-x: hidden!important;
-    max-width:100%!important;
-    
+    max-width:100%!important;   
+}
+.thecard p{
+  font-size: 14px!important;
 }
 
   .box1{
@@ -286,15 +283,12 @@ nav #menu a:hover {
   .container_2 {
     height: 900px;
   }
+  .box2{
+    width: 45%!important;
+  }
 }
 
 @media(max-width: 768px) {
-
-  html, body {
-    overflow-x: hidden!important;
-    max-width:100%!important;
-    
-}
 
   #toggle {
     visibility: visible;
@@ -358,29 +352,31 @@ nav #menu a:hover {
   .FE_icon_first_media{
     visibility: hidden!important;
   }
-}
-
-@media(min-width: 1090px) {
-
-  html, body {
-    max-width:100%!important;
-    overflow-x: hidden!important;
+  footer p{
+    margin: 0!important;
     
-}
+  }
   
+  footer i{
+    margin-right: 0!important;
+    float: none!important
+  }
+}
+
+@media(min-width: 1090px) { 
 .FE_icon_first_media{
   visibility: hidden!important;
 }
 
-
+@media screen and (min-width: 375px) and (max-width: 667px) {
+  html, body {
+    overflow-x: hidden!important;
+    max-width:100%!important;   
+  } 
+  
 }
 @media(min-width: 768px) {
 
-  html, body {
-    max-width:100%!important;
-    overflow-x: hidden!important;
-    
-}
   #responsive {
     visibility: hidden;
   }
@@ -652,14 +648,13 @@ content: 'Fbado66@gmail.com';
 }
 
 .box2{
-  width: 17%;
+  width: 21%;
   height: 150px;
   float: left;
-  padding: 0;
-  margin: 12% 4%;
+  margin: 2%;
   border-color: black;
-  border-radius: 15px;
-  box-shadow: 2px -2px 20px lightslategray;
+  /* border-radius: 15px; */
+  box-shadow: 0 20px 40px rgba(0,0,0,.2);
 }
 
 .box2 p{
@@ -693,4 +688,16 @@ footer{
   font-size: 18px;
   background-color: #212121;
   width: 100%;
+  margin-right: 10%;
+}
+
+footer p{
+  text-align: justify;
+  margin: 0 5%;
+}
+
+footer i{
+  font-size: 30px;
+  float: right;
+  margin-right: 5%;
 }
