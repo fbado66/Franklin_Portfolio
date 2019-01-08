@@ -368,12 +368,19 @@ nav #menu a:hover {
   visibility: hidden!important;
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px) {
+@media (min-width: 375px) {
   html, body {
     overflow-x: hidden!important;
     max-width:100%!important;   
   } 
   
+}
+@media (max-width: 667px) {
+  html, body {
+    overflow-x: hidden!important;
+    max-width:100%!important;   
+  } 
+
 }
 @media(min-width: 768px) {
 
