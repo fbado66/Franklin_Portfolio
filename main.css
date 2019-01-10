@@ -56,7 +56,7 @@ body{
 }
 
 p {
-  margin: 5px 0 10px;
+  margin: 5px 10px;
   text-align: center;
 }
 
@@ -117,19 +117,21 @@ p {
 
 .FE_icon{
   position: absolute; 
-  padding: 76px 12px;
+  padding: 0 2%;
   text-align:center; 
   display:flex;
   margin: 0;
 }
+
 .fonttext{
-  position: absolute; 
-  padding: 30px 120px;
-  margin-left: 40px;
   color: #212121;
   font-weight: 300;
   text-shadow: 1px 1px black;
+  text-align: center;
+  position: relative;
+  
 }
+
 
 #rotate{
   transform: rotate(180deg);
@@ -153,6 +155,22 @@ p {
 .btn img {
   width: 46px;
   height: 65px
+}
+
+.materialize img {
+  width: 40px;
+  height: 40px;
+  padding-top: 15px;
+}
+
+.icons{
+  padding-right:1%;
+  
+}
+.sqlite img {
+  width: 45px;
+  height: 40px;
+  padding-top: 15px;
 }
 
 #materialize{
@@ -272,6 +290,18 @@ nav #menu a:hover {
   position: sticky;
 }
 
+#responsive #menu {
+  margin-top: 55px;
+}
+
+#responsive #menu a {
+  color: white;
+}
+
+#responsive #menu a:hover {
+  text-decoration: underline;
+}
+  
 @media(max-width: 1090px) {
 
   html, body {
@@ -285,6 +315,7 @@ nav #menu a:hover {
 
   .box1{
     width: 40%!important;
+    padding: 5px 5%!important;
   }
   .box1_2{
     width: 40%!important;
@@ -302,8 +333,23 @@ nav #menu a:hover {
     height: 900px;
   }
   .box2{
-    width: 45%!important;
+    width: 44%!important;
   }
+
+  .container_4{
+    height: 600px;
+  }
+
+  .fonttext{
+    padding-top: 40px;
+    font-size: 30px;
+    left: 41%;
+    border-bottom: 1.5px solid #000000;
+    padding-bottom: 12px;
+    width: 155px;
+    text-shadow: none;
+  }
+  
 }
 
 @media(max-width: 768px) {
@@ -334,11 +380,6 @@ nav #menu a:hover {
     display: none;
   }
 
-  .wrapper{
-    margin-top: 9%;
-    padding: 0;
-  }
-
   .theback h2 {
     text-shadow: 1px 1px black;
   }
@@ -363,14 +404,14 @@ nav #menu a:hover {
   }
 
   .box1_2{
-    margin: 0% 20%;
+    margin: 0% 24%;
     width:50%!important;
   }
   
   .FE_icon{
     visibility: visible!important;
     left: 50%;
-    transform: translate(-50%, 0%);
+    transform: translate(-54%, 0%);
   }
 
   .FE_icon_first_media{
@@ -385,6 +426,12 @@ nav #menu a:hover {
   footer i{
     margin-right: 0!important;
     float: none!important
+  }
+
+  .fonttext{
+    left: 38%;
+    border-bottom: 1.5px solid #000000;
+    padding-bottom: 12px;
   }
 }
 
@@ -422,7 +469,6 @@ nav #menu a:hover {
 }
  
 #navbar a {
-  /* float: left; */
   display: block;
   text-align: center;
   text-decoration: none;
@@ -447,7 +493,6 @@ nav #menu a:hover {
   font-size: 30px;
   color: #212121;
   line-height: 1;
-  padding-top: 30px;
 }
 
 img{
@@ -512,15 +557,15 @@ button {
 
 #resume_button{
   background: #ffc728;
-  padding: 8px 30px;
+  padding: 7px 30px;
   border-radius: 15px;
   box-shadow: 2px -2px 20px lightslategray;
   left:50%;
   transform: translate(-50%, -50%);
-  font-size: 18px;
   color: black;
   text-decoration: none;
 }
+
 
 .thecard:hover .overlay{
   opacity: 1;
@@ -609,7 +654,7 @@ button {
 /* contact me section  */
 #contact_button{
   position: absolute;
-  width: 160px;
+  width: 175px;
   background: #ffc728;
   padding: 4px 30px;
   border-radius: 15px;
@@ -621,13 +666,26 @@ button {
 a{
   text-decoration:none;
 }
+
 .FE_icon_first_media{
   position: absolute; 
-  padding: 76px 12px;
   text-align:center; 
-  display:flex;
+  display:inline-flex;
   margin: 0;
+  left: 50%;
+  transform: translateX(-56%);
+  padding-top: 30px;
 }
+
+.FE_icon_first_media li p{
+  font-size: 6%;
+}
+
+.FE_icon ol li p{
+  margin: 2px -7px;
+  font-size: 13px;
+}
+
 .contact_me {
   font-size: 14px;
   font-weight: bold;
@@ -636,6 +694,7 @@ a{
   white-space: nowrap;
   text-decoration: none;
 }
+
 
 #contact_button:hover span{
 display: none;
@@ -670,7 +729,7 @@ content: 'Fbado66@gmail.com';
 .box1_3{
   width: 31%;
   float: left;
-  padding: 5px 1%;
+  padding: 40px 1%;
 }
 
 .box1_3 h4{
@@ -687,18 +746,17 @@ content: 'Fbado66@gmail.com';
 }
 
 .box2{
-  width: 21%;
+  width: 19%;
   height: 150px;
   float: left;
-  margin: 2%;
+  margin: 3%;
   border-color: black;
-  /* border-radius: 15px; */
   box-shadow: 0 20px 40px rgba(0,0,0,.2);
 }
 
 .box2 p{
   padding-top: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Aleo', serif;
 }
 
 .box2 i{
@@ -740,3 +798,23 @@ footer i{
   float: right;
   margin-right: 5%;
 }
+
+#footer-text{
+  float: left;
+  position: relative;
+  top: 50%;
+  transform: translateY(50%);
+  font-family: 'Aleo', serif;
+}
+
+footer a{
+  padding-right: 10px;
+}
+
+.box2 a:link{
+  color: black;
+}
+
+.icon-link:hover {
+  text-decoration: underline;
+ }
