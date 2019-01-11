@@ -810,10 +810,17 @@ footer a{
   padding-right: 10px;
 }
 
-.box2 a:link{
+.box2 a:link {
   color: black;
 }
 
+.box2 a:active{
+  color: black;
+}
+
+.box2 a:visited{
+  color: black;
+}
 .icon-link:hover {
   text-decoration: underline;
  }
