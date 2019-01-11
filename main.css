@@ -49,6 +49,7 @@ body{
   color: #212121;
   line-height: 1;
   padding-top: 30px;
+  text-decoration: underline;
 }
 
 #about p{
@@ -249,10 +250,6 @@ nav #menu a:hover {
  text-decoration: underline overline goldenrod;
 }
 
-.underline {
-  border-bottom: 1.5px solid #000000;
-  padding-bottom:12px;
-}
 
 #toggle {
   position: absolute;
@@ -343,11 +340,10 @@ nav #menu a:hover {
   .fonttext{
     padding-top: 40px;
     font-size: 30px;
-    left: 41%;
-    border-bottom: 1.5px solid #000000;
+    text-decoration: underline;
     padding-bottom: 12px;
-    width: 155px;
     text-shadow: none;
+    text-align: center;
   }
   
 }
@@ -376,6 +372,7 @@ nav #menu a:hover {
     padding: 5% 8%!important;
   }
 
+
   .box h1{
     display: none;
   }
@@ -392,7 +389,7 @@ nav #menu a:hover {
   }
 
   .container_2{
-    height: 1400px;
+    height: 1500px;
   }
 
   .container_3 {
@@ -429,9 +426,9 @@ nav #menu a:hover {
   }
 
   .fonttext{
-    left: 38%;
-    border-bottom: 1.5px solid #000000;
+    text-align: center;
     padding-bottom: 12px;
+    text-decoration: underline;
   }
 }
 
@@ -493,6 +490,7 @@ nav #menu a:hover {
   font-size: 30px;
   color: #212121;
   line-height: 1;
+  text-decoration: underline;
 }
 
 img{
@@ -775,6 +773,7 @@ content: 'Fbado66@gmail.com';
   color: #212121;
   line-height: 1;
   padding-top: 30px;
+  text-decoration: underline;
 }
 
 footer{
