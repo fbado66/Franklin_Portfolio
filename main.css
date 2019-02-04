@@ -86,33 +86,38 @@ p {
   opacity: 1;
 }
 
+
 .type-writer{
   animation:type-writer 3s steps(40) forwards;
 }
 @keyframes type-writer {
-  from { width:0 }
+  from { width:0; }
   to { width:430px; }
 }
 
 .type-writer2{
   animation-name:type-writer2;
   animation-duration: 6.2s; 
-  animation-direction: inherit;
+  animation-direction: inherit; 
 
 }
 @keyframes type-writer2 {
   0% {
   opacity: 0;
   font-size: 25px;
+  filter: blur(10px);
+    
   }
   50% {
   opacity: 0;
   font-size: 25px;
+  filter: blur(10px);
   }
  
   100% {
   opacity: 1;
   font-size: 40px;
+  transform: rotateY(0deg);
   }
 }
 
