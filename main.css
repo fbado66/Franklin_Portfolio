@@ -582,7 +582,7 @@ button {
   height: 100%;
   opacity: 0;
   transition: .5s ease;
-  background: rgb(252, 252, 208);
+  background:#F6F6F6;
   border-radius: 10px;
   overflow: hidden;
   text-align: center;
