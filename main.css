@@ -350,6 +350,10 @@ nav #menu a:hover {
     text-shadow: none;
     text-align: center;
   }
+
+  #extra{
+    display: none
+  }
   
 }
 
@@ -435,6 +439,10 @@ nav #menu a:hover {
     padding-bottom: 12px;
     text-decoration: underline;
   }
+  
+  #extra{
+    display: none
+  }
 }
 
 @media(min-width: 1090px) { 
@@ -448,6 +456,7 @@ nav #menu a:hover {
   max-width:100%!important;   
   }
 
+
 }
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
@@ -457,6 +466,7 @@ nav #menu a:hover {
     -webkit-overflow-scrolling: auto;
     width:100%!important;   
   }
+  
 }
 @media(min-width: 768px) {
   .overflow {
@@ -468,6 +478,7 @@ nav #menu a:hover {
   #responsive {
     visibility: hidden;
   }
+  
 }
  
 #navbar a {
